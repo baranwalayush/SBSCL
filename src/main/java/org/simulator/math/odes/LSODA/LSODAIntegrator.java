@@ -554,7 +554,6 @@ public class LSODAIntegrator extends AdaptiveStepsizeIntegrator {
 
     /**
      * Initializes {@code LSODACommon} variabales with suitable values, and set it in {@code LSODAContext}
-     * @param ctx    the {@code LSODAContext} object
      * @param mxords maximum order for stiff method
      * @param mxordn maximum order for nonstiff method
      * @@return {@code boolean} Returns true on successful allocation
