@@ -314,6 +314,17 @@
         <role>developer</role>
       </roles>
     </developer>
+    <developer>
+      <name>Ayush Baranwal</name>
+      <id>baranwalayush</id>
+      <email>baranwal96080ayush@gmail.com</email>
+      <url>https://www.linkedin.com/in/ayush-kumar-baranwal/</url>
+      <organization>Jawaharlal Nehru University, New Delhi, India</organization>
+      <timezone>India/IST</timezone>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
   </developers>
 
   <contributors>
