@@ -26,17 +26,21 @@ For feature requests or enhancements, please open a new issue on our [Issue Trac
 
 1.  **Fork** the repository and **clone** it locally.
 2.  **Create a new branch** for your changes: `git checkout -b your-feature-name`.
-3.  **Make your changes** and ensure they adhere to our [Coding Style Guide Link, if applicable].
+3.  **Make your changes** and ensure they adhere to general coding style.
 4.  **Write tests** for your changes to ensure functionality and prevent regressions.
-5.  **Commit your changes** with a clear and descriptive commit message.
-6.  **Push your branch** to your fork: `git push origin your-feature-name`.
-7.  **Open a Pull Request (PR)** to the upstream repository.
+5.  **Run the test suite**:
+    *   Execute existing unit/integration tests: `mvn test`
+    *   Run SBML Test Suite (via SBML Test Runner) if your changes affect simulation or solver behavior.
+6.  **Commit your changes** with a clear and descriptive commit message.
+7.  **Push your branch** to your fork: `git push origin your-feature-name`.
+8.  **Open a Pull Request (PR)** to the upstream repository.
     *   Provide a clear description of your changes.
     *   Reference any related issues.
+    *   Include relevant results (e.g., test outputs, SBML Test Suite results) when applicable.
 
 ## Development Setup
 
-For more information regarding the installation, refer to [INSTALL.md](INSTALL.md)
+For detailed instructions on setting up the environment and running the SBML Test Suite (via SBML Test Runner), please refer to the [Installation Guide](INSTALL.md).
 
 ## Getting Help
 
